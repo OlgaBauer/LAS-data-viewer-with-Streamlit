@@ -6,11 +6,11 @@ import pandas as pd
 from io import StringIO
 #Plotly imports
 #import plotly.graph_objects 
-from plotly.subplots import make_subplots
-import plotly.express as px
-import plotly.graph_objects as go
-import plotly.figure_factory as ff
-import chart_studio.plotly as py
+#from plotly.subplots import make_subplots
+#import plotly.express as px
+#import plotly.graph_objects as go
+#import plotly.figure_factory as ff
+#import chart_studio.plotly as py
 #local imports
 
 @st.cache_data
