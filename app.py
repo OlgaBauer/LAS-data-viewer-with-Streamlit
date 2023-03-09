@@ -5,7 +5,7 @@ import pandas as pd
 #import lasio
 from io import StringIO
 #Plotly imports
-import plotly.graph_objects 
+#import plotly.graph_objects 
 from plotly.subplots import make_subplots
 import plotly.express as px
 import plotly.graph_objects as go
