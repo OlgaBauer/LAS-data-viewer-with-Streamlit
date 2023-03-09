@@ -2,12 +2,12 @@
 import streamlit as st
 st.set_page_config(layout="wide", page_title="LAS Explorer v 0.1")
 import pandas as pd
-#import lasio
+import lasio
 from io import StringIO
 #Plotly imports
-#import plotly.graph_objects 
-#from plotly.subplots import make_subplots
-#import plotly.express as px
+import plotly.graph_objects 
+from plotly.subplots import make_subplots
+import plotly.express as px
 #import plotly.graph_objects as go
 #import plotly.figure_factory as ff
 #import chart_studio.plotly as py
