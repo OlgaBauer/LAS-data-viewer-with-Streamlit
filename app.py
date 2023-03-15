@@ -10,7 +10,6 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
-import chart_studio.plotly as py
 
 
 @st.cache_data
