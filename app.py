@@ -4,7 +4,6 @@ st.set_page_config(layout="wide", page_title="LAS Explorer v 0.1")
 import pandas as pd
 import lasio
 from io import StringIO
-#import missingno as mno
 #Plotly imports
 import plotly.graph_objects 
 from plotly.subplots import make_subplots
