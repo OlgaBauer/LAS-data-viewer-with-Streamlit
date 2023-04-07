@@ -49,7 +49,7 @@ if las_file:
 # adding home page
 def home():
     st.title('LAS Data Explorer - version 0.3')
-    st.write('### Designed by Olga Bauer')
+    st.write('### by Olga Bauer')
     st.write('''LAS Data Explorer is a tool designed using Python and Streamlit to help you view and gain an understanding of the contents of
     a LAS file.''')
     st.write('To begin using the app, load your LAS file using the file upload option on the sidebar. Once you have done this, you can navigate to the relevant tools using the Navigation menu.')
