@@ -11,4 +11,4 @@ Data Information: Information about the curves contained within the LAS file, in
 
 Data Visualisation: Visualisation tools to view las file data on a log plot, crossplot and histogram.
 
-Missing Data Visualisation: Visualisation tools understand data extent and identify areas of missing values.
+Missing Data Visualisation: Visualisation tools to understand data extent and identify areas of missing values.
