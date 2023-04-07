@@ -96,7 +96,7 @@ def plot(las_file, well_data):
 
     else:
         columns = list(well_data.columns)
-        st.write('Expand one of the following to visualise your well data.')
+        st.write('Expand one of the following to visualise your well data. Use Magnifying Glass to zoom in by drawing a box over the depth of interest. Avoid using + or - buttons to zoom. ')
         with st.expander('Log Plot'):    
             curves = st.multiselect('Select Curves To Plot', columns)
             if len(curves) <= 1:
