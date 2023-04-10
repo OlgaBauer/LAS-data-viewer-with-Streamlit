@@ -5,6 +5,7 @@ LAS Data Explorer is a tool designed using Python and Streamlit to help you view
 To begin using the app, load your LAS file using the file upload option on the sidebar. Once you have done this, you can navigate to the relevant tools using the Navigation menu.
 
 Sections:
+
 Header Information: Information from the LAS file header.
 
 Data Information: Information about the curves contained within the LAS file, including names, statisics and raw data values.
