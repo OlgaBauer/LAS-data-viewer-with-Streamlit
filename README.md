@@ -2,6 +2,14 @@
 
 LAS Data Explorer is a tool designed using Python and Streamlit to help you view and gain an understanding of the contents of a LAS file.
 
+To download files from GitHub, please follow these steps careful:
+
+Left-click on "app.py"
+Right-click on the "Raw" button
+Choose "Save Link As..." (or similar)
+Save the file in your folder
+Run as streamlit run app.py
+
 To begin using the app, load your LAS file using the file upload option on the sidebar. Once you have done this, you can navigate to the relevant tools using the Navigation menu.
 
 Sections:
