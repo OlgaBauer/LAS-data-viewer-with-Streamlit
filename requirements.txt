@@ -2,3 +2,4 @@ lasio==0.30
 pandas==1.5.3
 plotly==5.13.1
 streamlit==1.40.1
+numpy==1.24.2
