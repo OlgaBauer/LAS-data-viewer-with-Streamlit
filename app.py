@@ -33,10 +33,6 @@ def load_data(uploaded_file):
     return las_file, well_data
 
 # Customize the sidebar
-markdown = """
-Web App URL: <https://olgabauer-las-data-viewer-with-streamlit-app-i6i2i4.streamlit.app/>
-"""
-st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
