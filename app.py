@@ -186,8 +186,9 @@ def missing(las_file, well_data):
 
         selection = col1_md.radio('Select all data or custom selection', ('All Data', 'Custom Selection'))
         fill_color_md = col2_md.color_picker('Select Fill Colour', '#9D0000')
-        top_depth = col3_md.number_input('Top Depth', value=min_depth)
-        bottom_depth = col4_md.number_input('Bottom Depth', value=max_depth)
+        # Display static data for top and bottom depths
+        col3_md.write(f"Top Depth: {min_depth}")
+        col4_md.write(f"Bottom Depth: {max_depth}")
 
         if selection == 'All Data':
             curves = columns
