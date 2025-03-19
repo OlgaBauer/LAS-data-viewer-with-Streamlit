@@ -32,6 +32,14 @@ def load_data(uploaded_file):
 
     return las_file, well_data
 
+# Customize the sidebar
+markdown = """
+Web App URL: <https://olgabauer-las-data-viewer-with-streamlit-app-i6i2i4.streamlit.app/>
+"""
+st.sidebar.info(markdown)
+logo = "https://i.imgur.com/UbOXYAU.png"
+st.sidebar.image(logo)
+
 # adding side bar 
 las_file = None
 
@@ -48,17 +56,17 @@ if las_file:
 
 # adding home page
 def home():
-    st.title('LAS Data Explorer - version 0.3')
+    st.title('LAS Data Explorer')
     st.write('### by Olga Bauer')
     st.write('''LAS Data Explorer is a tool designed using Python and Streamlit to help you view and gain an understanding of the contents of
     a LAS file.''')
     st.write('To begin using the app, load your LAS file using the file upload option on the sidebar. Once you have done this, you can navigate to the relevant tools using the Navigation menu.')
     st.write('\n')
     st.write('## Sections')
-    st.write('**Header Information:** Information from the LAS file header.')
-    st.write('**Data Information:** Information about the curves contained within the LAS file, including names, statisics and raw data values.')
-    st.write('**Data Visualisation:** Visualisation tools to view las file data on a log plot, crossplot and histogram.')
-    st.write('**Missing Data Visualisation:** Visualisation tools understand data extent and identify areas of missing values.')
+    st.write('**👉 Header Information:** Information from the LAS file header.')
+    st.write('**👉 Data Information:** Information about the curves contained within the LAS file, including names, statisics and raw data values.')
+    st.write('**👉 Data Visualisation:** Visualisation tools to view las file data on a log plot, crossplot and histogram.')
+    st.write('**👉 Missing Data Visualisation:** Visualisation tools understand data extent and identify areas of missing values.')
 
 # header
 def header(las_file):
@@ -211,7 +219,7 @@ def missing(las_file, well_data):
             st.plotly_chart(fig, use_container_width=True)
 
 # Sidebar Navigation
-st.sidebar.title('Navigation')
+st.sidebar.title('Navigation 📖')
 options = st.sidebar.radio('Select a section:', 
     ['Home', 'Header Information', 'Data Information', 'Data Visualisation', 'Missing Data Visualisation'])
 
